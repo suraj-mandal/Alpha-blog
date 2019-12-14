@@ -1,0 +1,10 @@
+========== Model creation in ROR and working with the backend =================
+
+1. here first we have fiddled with the models and the database in the backend
+2. however, in a real web application we will have to perform these functions from the front end
+3. so, we will have to communicate from the front end to the back end.
+
+=========== Adding new articles in the db from the browser =====================
+
+1.
+
