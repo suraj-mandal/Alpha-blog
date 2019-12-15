@@ -16,7 +16,7 @@ class ArticlesController < ApplicationController
   # here all the validations are made
   def create
     #render plain: params[:article].inspect
-
+    @article = Article.new(article_params)
     if @article.save
       # do something
       flash[:notice] = "Article was successfully created"
